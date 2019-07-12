@@ -1,0 +1,71 @@
+#######################################
+# Syntax Coloring Map
+#######################################
+
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+ProtoCounter	KEYWORD1
+
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+init	KEYWORD2
+clearDisplay	KEYWORD2
+getDisplay	KEYWORD2
+setDisplay	KEYWORD2
+writeChar	KEYWORD2
+writeString_P	KEYWORD2
+writeInt	KEYWORD2
+writeHex	KEYWORD2
+setDimming	KEYWORD2
+setDecimalPlaces	KEYWORD2
+setAnalogResolution	KEYWORD2
+getButton	KEYWORD2
+buttonAck	KEYWORD2
+readShiftRegister	KEYWORD2
+writeShiftRegister	KEYWORD2
+getAnalog	KEYWORD2
+update	KEYWORD2
+updateAnalog	KEYWORD2
+
+
+######################################
+# Constants (LITERAL1)
+#######################################
+BUTTON1	LITERAL1
+BUTTON2	LITERAL1
+
+# push button events
+BTN1_PRESSED	LITERAL1
+BTN1_RELEASED	LITERAL1
+BTN1_LONGPRESSED	LITERAL1
+BTN2_PRESSED	LITERAL1
+BTN2_RELEASED	LITERAL1
+BTN2_LONGPRESSED	LITERAL1
+BOTH_PRESSED	LITERAL1
+BOTH_RELEASED	LITERAL1
+BOTH_LONGPRESSED	LITERAL1
+
+# numeric display
+MAX_DECIMAL	LITERAL1
+MIN_DECIMAL	LITERAL1
+DECIMAL_PLACES	LITERAL1
+MAX_DIGITS	LITERAL1
+
+# external shift registers
+SH_REG_IN_BITCOUNT	LITERAL1
+SH_REG_OUT_BITCOUNT	LITERAL1
+
+# analog Knob
+ANALOG_MAX_RESOLUTION	LITERAL1
+ANALOG_129_DETENT_STEPS	LITERAL1
+ANALOG_86_DETENT_STEPS	LITERAL1
+ANALOG_65_DETENT_STEPS	LITERAL1
+ANALOG_43_DETENT_STEPS	LITERAL1
+ANALOG_33_DETENT_STEPS	LITERAL1
+ANALOG_22_DETENT_STEPS	LITERAL1
+ANALOG_OFF	LITERAL1
