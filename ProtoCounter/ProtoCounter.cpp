@@ -243,7 +243,7 @@ void ProtoCounter::writeInt(int16_t val)
 	}
 	
 	// convert value to digits
-	digit[0] = (val >> 8) & 11;			// load bit9..8
+	digit[0] = (val >> 8) & 0b11;		// load bit9..8
 	for (i=0; i<8; i++) {				// convert binary value to decimal digits
 		digit[0] <<= 1;					// double each digit
 		digit[1] <<= 1;
